@@ -46,7 +46,7 @@ const FoodDetails = () => {
     <div className={classes.container}>
       <div className={classes.wrapper}>
         <div className={classes.left}>
-          <img src={`https://dream-food-media.onrender.com/images/${foodDetails?.img}`} alt=''/>
+          <img src={`https://dream-food-media.onrender.com/images/${foodDetails?.img}`} alt='foodDetails'/>
         </div>
         <div className={classes.right}>
           <h2 className={classes.title}>{foodDetails?.title}</h2>
